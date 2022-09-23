@@ -1,0 +1,11 @@
+.name-list {
+  text-align: center;
+  font-size: larger;
+  margin: 10px 1050px 10px 10px;
+  border: 10px solid #fff;
+  background-color: #f63;
+  padding: 15px;
+  min-width: 150px;
+  outline: #f63 solid 2px;
+  color: #fff;
+}

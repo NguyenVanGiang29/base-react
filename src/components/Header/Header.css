@@ -1,0 +1,43 @@
+.header {
+  background-image: linear-gradient(#f53d2d, #f63);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  color: #000;
+  background: #f63;
+}
+
+.active {
+  background: #f63;
+}
+
+.search {
+  height: 40%;
+  width: 300px;
+  border: 1px solid #f63;
+  border-radius: 5px;
+}
+
+.search:focus {
+  outline: none !important;
+  border: 1px solid #f53d2d;
+}
